@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <body>
+	  <form onSubmit="handleUrl(event)">
+		  <input type="text" id="name" name="name" oninput="handleInput(event)"/>
+		  <input type="text" id="year" name="year" oninput="handleInput(event)"/>
+		  <input type="submit" id='submit'/>
+	  </form>
+	  <h3 id='url'></h3>
     <script type="text/javascript" src="./script.js">
 </script>
   </body>
